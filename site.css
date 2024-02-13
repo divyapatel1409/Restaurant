@@ -1,0 +1,543 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 1px;
+}
+
+body * {
+  border-style: none !important;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #4ac3c8;
+}
+
+header {
+  /* background-color: #4ac3c8; */
+  padding: 40px;
+  flex-grow: 1;
+  background-color: rgba(48, 192, 173, 0.5);
+  background-image: url('images/banner-image.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+header .site-name,
+header .tagline {
+  color: #0c1c23;
+}
+
+.summary {
+  height: 300px;
+  background-color: rgb(255, 255, 255);
+}
+
+.summary h2 {
+  font-size: 50px;
+  margin: 5px 5px 5px 27px;
+}
+
+.summary p {
+  padding: 10px 29px 0px 29px;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.nav-wrapper {
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.nav-wrapper nav {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 20px;
+}
+
+.nav-wrapper nav li a {
+  padding: 20px 10px 20px 10px;
+  background-color: #5d7787;
+  color: #ffffff;
+  font-weight: 600;
+  display: block;
+  text-decoration: none;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.nav-wrapper nav li a:hover {
+  background-color: #ffffff;
+  color: #0c1c23;
+}
+
+.nav-wrapper nav li a.active {
+  background-color: #ffffff;
+  color: #0c1c23;
+}
+
+.nav-wrapper nav li {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.nav-wrapper nav ul {
+  padding-left: 0px;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 10px;
+  background-color: #ffffff;
+}
+
+.content {
+  margin: 10px;
+  flex: 8;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.content .food-review h2,
+.content .spacial-dishs h2 {
+  padding-left: 20px;
+}
+
+.content .sub-content {
+  padding-top: 10px;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.spacial-dishs {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 100%;
+}
+
+.dish-wrapper {
+  display: flex;
+  height: 300px;
+  width: 100%;
+}
+
+.dish {
+  margin: 10px;
+  padding: 10px;
+  font-size: 30px;
+  flex: 1;
+  border-style: solid;
+  border-width: 2px;
+  height: 300px;
+  display: flex;
+  display: flex;
+  flex-direction: column;
+}
+
+.dish .dish-name span {
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+}
+.dish img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.food-review {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 100%;
+}
+
+.review-wrapper {
+  display: flex;
+  height: 300px;
+  width: 100%;
+}
+
+.review-wrapper > .review {
+  margin: 20px;
+  padding: 20px;
+  font-size: 30px;
+  flex: 1;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.review p {
+  font-size: 20px;
+  padding-left: 0px;
+}
+
+.footer-content {
+  background-color: #4ac3c8;
+  height: 100%;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+/* Social media icons style */
+.fa {
+  padding: 10px;
+  font-size: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.footer_columns {
+    display: inline-block;
+    width: 24%;
+    margin: 3px;
+}
+
+.footer_columns p, .footer_columns li {
+    font-size: 14px;
+}
+@media (min-width: 360px) and (max-width: 473px) {
+  header {
+    padding: 10px 10px 10px 20px;
+  }
+
+  header .site-name {
+    font-size: 25px;
+  }
+
+  .content {
+    gap: 0px;
+  }
+  .content-wrapper {
+    flex-direction: column-reverse;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .nav-wrapper {
+    width: 100%;
+    background-color: #5d7787;
+    margin-top: 0px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+  }
+
+  .nav-wrapper nav {
+    position: initial;
+  }
+
+  .nav-wrapper nav ul {
+    margin: 0 0 0 0;
+    display: flex;
+  }
+
+  .nav-wrapper nav ul li {
+    float: left;
+    margin-top: 0px;
+  }
+
+  .nav-wrapper nav ul li a {
+    font-size: 13px;
+    text-align: center;
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .summary h2 {
+    font-size: 15px;
+  }
+
+  .summary p {
+    font-size: 14px;
+  }
+
+  .spacial-dishs {
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .spacial-dishs h2,
+  .food-review h2 {
+    font-size: 17px;
+  }
+
+  .dish-wrapper {
+    flex-direction: column;
+    height: 100%;
+    flex-grow: initial;
+  }
+
+  .dish-wrapper .dish img {
+    height: 300px;
+  }
+
+  .food-review {
+    height: auto;
+  }
+
+  .review p {
+    font-size: 12px;
+  }
+  .review span {
+    font-size: 15px;
+  }
+
+  .review-wrapper {
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+}
+
+@media (min-width: 474px) and (max-width: 639px) {
+  .content {
+    gap: 0px;
+  }
+  .content-wrapper {
+    flex-direction: column-reverse;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .nav-wrapper {
+    width: 100%;
+    background-color: #5d7787;
+    margin-top: 0px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+  }
+
+  .nav-wrapper nav {
+    position: initial;
+  }
+
+  .nav-wrapper nav ul {
+    margin: 0 0 0 0;
+  }
+
+  .nav-wrapper nav ul li {
+    float: left;
+    margin-top: 0px;
+    height: 60px;
+  }
+
+  .nav-wrapper nav ul li a {
+    text-align: center;
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .summary h2 {
+    font-size: 25px;
+  }
+
+  .summary p {
+    font-size: 14px;
+  }
+
+  .spacial-dishs {
+    height: auto;
+  }
+
+  .dish-wrapper {
+    flex-direction: column;
+    height: 100%;
+    flex-grow: initial;
+  }
+
+  .dish-wrapper .dish img {
+    height: 300px;
+  }
+
+  .food-review {
+    height: auto;
+  }
+
+  .review p {
+    font-size: 16px;
+  }
+  .review span {
+    font-size: 20px;
+  }
+
+  .review-wrapper {
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+}
+
+/* sm */
+@media (min-width: 640px) and (max-width: 767px) {
+  .content-wrapper {
+    flex-direction: column-reverse;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .nav-wrapper {
+    width: 100%;
+    background-color: #5d7787;
+    margin-top: 0px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+  }
+
+  .nav-wrapper nav {
+    position: initial;
+  }
+
+  .nav-wrapper nav ul {
+    margin: 0 0 0 0;
+  }
+
+  .nav-wrapper nav ul li {
+    float: left;
+    margin-top: 0px;
+    height: 60px;
+  }
+
+  .nav-wrapper nav ul li a {
+    text-align: center;
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .summary h2 {
+    font-size: 35px;
+  }
+
+  .summary p {
+    font-size: 16px;
+  }
+
+  .spacial-dishs {
+    height: auto;
+  }
+
+  .dish-wrapper {
+    flex-direction: column;
+    height: 100%;
+    flex-grow: initial;
+  }
+
+  .dish-wrapper .dish img {
+    height: 300px;
+  }
+
+  .food-review {
+    height: auto;
+  }
+
+  .review p {
+    font-size: 16px;
+  }
+  .review span {
+    font-size: 20px;
+  }
+
+  .review-wrapper {
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+}
+
+/* md */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .content-wrapper {
+    flex-direction: column-reverse;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .summary h2 {
+    font-size: 35px;
+  }
+
+  .nav-wrapper {
+    width: 100%;
+    background-color: #5d7787;
+    margin-top: 0px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+  }
+
+  .nav-wrapper nav {
+    position: initial;
+  }
+
+  .nav-wrapper nav ul {
+    margin: 0 0 0 0;
+  }
+
+  .nav-wrapper nav ul li {
+    float: left;
+    margin-top: 0px;
+    height: 60px;
+  }
+
+  .nav-wrapper nav ul li a {
+    text-align: center;
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+}
+
+/* lg */
+@media (min-width: 1024px) and (max-width: 1279px) {
+}
+
+/* xl */
+@media (min-width: 1280px) and (max-width: 1535px) {
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+}
