@@ -5,7 +5,7 @@ https://www.pexels.com/photo/baked-roti-topped-with-sliced-lime-beside-onion-rin
 https://www.pexels.com/photo/cooked-food-on-wooden-table-7625056/
 
 BANNER IMAGE
-https://www.istockphoto.com/photo/group-of-food-with-high-content-of-dietary-fiber-arranged-side-by-side-gm1457889029-492584168?utm_campaign=srp_photos_10&utm_content=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fbanner%2520background%2520food%2F&utm_medium=affiliate&utm_source=pexels&utm_term=banner+background+food
+https://www.freepik.com/free-photo/breakfast-omelette-with-radish-green-arugula-sandwich-with-salmon-white-plate-frittata-italian-omelet-top-view_7698288.htm#query=restaurant%20background&position=13&from_view=search&track=ais&uuid=89a67c24-cb34-476b-a6f3-d4e82a0033aa
 
 ## Menu bar reference:
 
@@ -24,7 +24,9 @@ https://huemint.com/website-magazine/#palette=fefcfe-d6f2fa-4b5663-75a7ff
 https://huemint.com/website-magazine/#palette=fcfdff-d6f2fa-745993-9bcd8b
 
 ## Social media icons
-https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_social_media_buttons
+
+https://cdnjs.com/libraries/font-awesome
 
 ## Fevicon icone
+
 https://icons8.com/icons/set/saffron
